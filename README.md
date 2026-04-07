@@ -1,4 +1,5 @@
  AI Document Assistant using RAG
+ 
 Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) based conversational chatbot that enables users to interact with documents in a natural, question-answering format.
@@ -6,6 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) based conversatio
 The system processes documents, converts them into embeddings, stores them in a vector database, and retrieves relevant context to generate accurate and context-aware responses.
 
  Features
+ 
  Document-based Question Answering
  Semantic Search using Embeddings
 Context-Aware Conversations with Memory
@@ -71,8 +73,10 @@ Create a .env file and add:
 
 MISTRAL_API_KEY=your_key_here
 GOOGLE_API_KEY=your_key_here
+
 4. Run the Project
 npm run start
+
 How It Works
 Documents are split into chunks
 Each chunk is converted into embeddings
@@ -93,6 +97,7 @@ Practical implementation of RAG architecture
 Working with LLMs + embeddings + vector search
 Understanding AI ethics integration in AI systems
 Building context-aware conversational systems
+
  Author
 
 Jashan
